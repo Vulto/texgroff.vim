@@ -3,7 +3,7 @@ let mapleader="\\"
 " TODO: If zathura open, refresh
 function! Preview()
 		:call Compile()<CR><CR>
-		execute "! clear ; !killall zathura &>/dev/null ; ! zathura /tmp/op.pdf &"
+		execute "! clear ; ! killall zathura &>/dev/null ; ! zathura /tmp/op.pdf &"
 endfunction
 
 function! Compile()
